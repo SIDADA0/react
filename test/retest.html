@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script crossorigin src="../react.production.min.js"></script>
+    <script crossorigin src="../browser.min.js"></script>
+    <script crossorigin src="../react-dom.production.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        class King extends react.Component{
+            constructor(props){
+                super(props);
+                this.state={
+                    countall:100,
+                    count1:100,
+                    count2:100
+                }
+                this.change = this.change.bind(this);
+            }
+            add(){
+                this.setState({
+                    countall:this.state.countall+ this.props.countsall，
+                    count1:this.state.count1+ this.props.counts1，
+                    count2:this.state.count2+ this.props.counts2
+                })
+            }
+            change({
+                this.props.changeA("")
+            }
+            render(){
+                return(
+                    <div>
+                        <h1>全部士兵数量：{this.state.countall}</h1>
+                        <h1>将军A士兵数量：{this.state.count1}</h1>
+                        <button onClick={this.add.bind(this)}>调兵</botton>
+                        <h1>将军B士兵数量：{this.state.count2}</h1>
+                        <button onClick={this.add.bind(this)}>调兵</botton>
+                    </div>
+                )
+            }
+        }
+        
+        Add extends react.Component{
+            constructor(props){
+                super(props){
+                    this.state={
+                        countall:"",
+                        num:10
+                    }
+                }
+                this.changeB = this.changeB.bind(this);
+            }
+            changeB(text){
+                this.setState({
+                    countall:
+                })
+            }
+        }
+    </script>
+</body>
+</html>
