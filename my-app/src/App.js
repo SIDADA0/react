@@ -21,8 +21,8 @@ class App extends Component {
         <div>
           {/* <Link to="./class1">class1</Link>
           <Link to="class2">class2</Link> */}
-          <Link to="./">class1</Link>
-          <Link to="class2">class2</Link> 
+          <Link to="/">class1</Link>
+          <Link to="/class2">class2</Link>
           {/* <Route path="/class1" component={Class1} />
           <Route path="/class2" component={Class2} /> */}
           <Route exact path="/" component={Class1} />

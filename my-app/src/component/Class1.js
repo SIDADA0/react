@@ -1,6 +1,7 @@
 /* jshint esversion: 6 */
 
-import React, { Component } from 'react';
+
+import React, { Component } from 'react'
 
 // export default class Class1 extends Component {
 //     render() {
@@ -11,8 +12,7 @@ import React, { Component } from 'react';
 //         )
 //     }
 // }
-// const Home = ()=><h3>home</h3>
-// const About = ()=><h3>about</h3>
+
 
 import {
     BrowserRouter as Router, 
