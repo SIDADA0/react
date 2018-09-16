@@ -1,7 +1,7 @@
 /* jshint esversion: 6 */
 
 
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 // export default class Class1 extends Component {
 //     render() {
