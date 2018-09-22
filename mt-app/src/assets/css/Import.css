@@ -1,0 +1,24 @@
+body{
+    margin: 10px;
+    padding: 0;
+}
+
+.love{
+    font-weight: 800;
+    color: grey;
+}
+
+.img2{
+    width: 33%;
+}
+
+.font2{
+    margin: 10px 20px;
+    float: left;
+}
+
+.sold{
+    position: relative;
+    top: -5px;
+    left: 175px;
+}
