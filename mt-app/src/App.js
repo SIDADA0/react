@@ -19,7 +19,6 @@ class App extends React.Component {
   }
   render() {
     return (
-      <WingBlank>
         <Carousel
           autoplay={false}
           infinite
@@ -45,7 +44,6 @@ class App extends React.Component {
             </a>
           ))}
         </Carousel>
-      </WingBlank>
     );
   }
 }
